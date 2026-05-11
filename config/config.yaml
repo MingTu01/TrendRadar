@@ -133,7 +133,17 @@ rss:
     #   url: "https://example.com/feed.xml"
     #   enabled: false
     #   max_age_days: 0               # 示例：禁用过滤，推送所有文章
+# GitHub Trending
+- id: "github-trending"
+  name: "GitHub Trending"
+  url: "https://github.com/trending"
+  enabled: true
 
+# AI Daily (NewsHub)
+- id: "ai-daily"
+  name: "NewsHub AI Daily"
+  url: "https://news.908521.xyz/ai-daily.xml"
+  enabled: true
 
 # ===============================================================
 # 4. 报告模式
